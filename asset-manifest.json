@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/asitsi.github.io/teslaClone/static/css/main.36de994c.chunk.css",
-    "main.js": "/asitsi.github.io/teslaClone/static/js/main.68e7d84a.chunk.js",
-    "main.js.map": "/asitsi.github.io/teslaClone/static/js/main.68e7d84a.chunk.js.map",
-    "runtime-main.js": "/asitsi.github.io/teslaClone/static/js/runtime-main.c82b48b5.js",
-    "runtime-main.js.map": "/asitsi.github.io/teslaClone/static/js/runtime-main.c82b48b5.js.map",
-    "static/css/2.61b4cb56.chunk.css": "/asitsi.github.io/teslaClone/static/css/2.61b4cb56.chunk.css",
-    "static/js/2.7bd5ef3d.chunk.js": "/asitsi.github.io/teslaClone/static/js/2.7bd5ef3d.chunk.js",
-    "static/js/2.7bd5ef3d.chunk.js.map": "/asitsi.github.io/teslaClone/static/js/2.7bd5ef3d.chunk.js.map",
-    "index.html": "/asitsi.github.io/teslaClone/index.html",
-    "static/css/2.61b4cb56.chunk.css.map": "/asitsi.github.io/teslaClone/static/css/2.61b4cb56.chunk.css.map",
-    "static/css/main.36de994c.chunk.css.map": "/asitsi.github.io/teslaClone/static/css/main.36de994c.chunk.css.map",
-    "static/js/2.7bd5ef3d.chunk.js.LICENSE.txt": "/asitsi.github.io/teslaClone/static/js/2.7bd5ef3d.chunk.js.LICENSE.txt"
+    "main.css": "/coronaApi/static/css/main.36de994c.chunk.css",
+    "main.js": "/coronaApi/static/js/main.68e7d84a.chunk.js",
+    "main.js.map": "/coronaApi/static/js/main.68e7d84a.chunk.js.map",
+    "runtime-main.js": "/coronaApi/static/js/runtime-main.792205de.js",
+    "runtime-main.js.map": "/coronaApi/static/js/runtime-main.792205de.js.map",
+    "static/css/2.61b4cb56.chunk.css": "/coronaApi/static/css/2.61b4cb56.chunk.css",
+    "static/js/2.7bd5ef3d.chunk.js": "/coronaApi/static/js/2.7bd5ef3d.chunk.js",
+    "static/js/2.7bd5ef3d.chunk.js.map": "/coronaApi/static/js/2.7bd5ef3d.chunk.js.map",
+    "index.html": "/coronaApi/index.html",
+    "static/css/2.61b4cb56.chunk.css.map": "/coronaApi/static/css/2.61b4cb56.chunk.css.map",
+    "static/css/main.36de994c.chunk.css.map": "/coronaApi/static/css/main.36de994c.chunk.css.map",
+    "static/js/2.7bd5ef3d.chunk.js.LICENSE.txt": "/coronaApi/static/js/2.7bd5ef3d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.c82b48b5.js",
+    "static/js/runtime-main.792205de.js",
     "static/css/2.61b4cb56.chunk.css",
     "static/js/2.7bd5ef3d.chunk.js",
     "static/css/main.36de994c.chunk.css",
