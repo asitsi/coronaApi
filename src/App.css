@@ -1,38 +1,108 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display==swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+.Heading {
   text-align: center;
+  font-size: 20px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bold {
+  font-weight: bold;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ul {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+}
+ul li:nth-child(1) {
+  background: #aed6dc;
+}
+ul li:nth-child(2) {
+  background: #ff9a8d;
+}
+ul li:nth-child(3) {
+  background: #4a536b;
+}
+.card {
+  width: 30%;
+  min-height: 15rem;
+  margin-right: 2rem;
+}
+.card_name {
+  text-align: center;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-top: 5px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #444;
+}
+.card_name span {
+  font-size: 12px;
+}
+.card_total {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bold;
+  font-family: "Josefin Sans", sans-serif;
+  color: #fff;
+  text-shadow: 2px 2px 4px #444;
+  transition: 0.3s ease-in-out;
+}
+ul li:hover .card_total {
+  font-size: 4.5rem;
+}
+.container-fluid {
+  width: 90%;
+  margin: auto;
 }
 
-.App-link {
-  color: #61dafb;
+.table-responsive {
+  max-height: 700px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+tr:hover {
+  background-color: #ffa;
+  color: #222;
+}
+td,
+th {
+  position: relative;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.table td,
+.table th {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: none;
+}
+td:hover::after,
+th:hover::after {
+  content: "";
+  position: absolute;
+  background-color: #f2f2f2;
+  left: 0;
+  top: -5000px;
+  height: 5000px;
+  width: 100%;
+  z-index: -1;
+}
+.table tr td:hover:nth-child(4) {
+  background-color: rgb(231, 83, 115);
+  color: aliceblue;
+  border: 0.5px solid rgb(12, 12, 12);
+}
+.table tr td:hover {
+  background-color: rgb(117, 223, 122);
+  color: aliceblue;
+  border: 0.5px solid rgb(12, 12, 12);
+}
+.thead-dark {
+  font-size: bold;
+  text-transform: uppercase;
+  background-color: #222;
+  color: #fff;
 }
