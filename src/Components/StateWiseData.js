@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
+import axios from "axios";
 import "../App.css";
 
 const StateWiseData = () => {
   const [data, setData] = useState([]);
   const getCovidData = async () => {
-    const res = await fetch("https://api.covid19india.org/data.json");
-    const value = await res.json();
-    setData(value.statewise);
+    const res= axios.get("https://data.covid19india.org/data.json");
+    setData((await res).data.statewise);
   };
 
   useEffect(() => {

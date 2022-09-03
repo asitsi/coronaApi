@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
+import axios from "axios";
 import "../App.css";
 
 const Card = () => {
   const [data, setData] = useState([]);
   const getCovidData = async () => {
-    const res = await fetch("https://api.covid19india.org/data.json");
-    const value = await res.json();
-    setData(value.statewise[0]);
+    const check = axios.get("https://api.covid19api.com/summary");
+    setData((await check).data.Countries[77]);
   };
   useEffect(() => {
     getCovidData();
@@ -24,7 +24,7 @@ const Card = () => {
               <p className="card_name">
                 <span>OUR </span> COUNTRY
               </p>
-              <p className="card_total card_small">INDIA</p>
+              <p className="card_total card_small">{data.Country}</p>
             </div>
           </div>
         </li>
@@ -32,9 +32,9 @@ const Card = () => {
           <div className="card_main">
             <div className="card_inner">
               <p className="card_name">
-                <span>total </span> recovered
+                <span>New Confirmed </span> Deaths
               </p>
-              <p className="card_total card_small">{data.recovered}</p>
+              <p className="card_total card_small">{data.NewDeaths}</p>
             </div>
           </div>
         </li>
@@ -44,7 +44,7 @@ const Card = () => {
               <p className="card_name">
                 <span>total </span> confirmed
               </p>
-              <p className="card_total card_small">{data.confirmed}</p>
+              <p className="card_total card_small">{data.TotalConfirmed}</p>
             </div>
           </div>
         </li>
@@ -56,7 +56,7 @@ const Card = () => {
               <p className="card_name">
                 <span>total </span> deaths
               </p>
-              <p className="card_total card_small">{data.deaths}</p>
+              <p className="card_total card_small">{data.TotalDeaths}</p>
             </div>
           </div>
         </li>
@@ -66,7 +66,7 @@ const Card = () => {
               <p className="card_name">
                 <span>total</span> active
               </p>
-              <p className="card_total card_small">{data.active}</p>
+              <p className="card_total card_small">{data.NewConfirmed}</p>
             </div>
           </div>
         </li>
@@ -76,7 +76,7 @@ const Card = () => {
               <p className="card_name">
                 <span>total </span> updated
               </p>
-              <p className="card_total card_small">{data.lastupdatedtime}</p>
+              <p className="card_total card_small">{new Date(data.Date).toDateString()}</p>
             </div>
           </div>
         </li>
