@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/asitsi.github.io/coronaApi/static/css/main.e30a8c55.chunk.css",
-    "main.js": "/asitsi.github.io/coronaApi/static/js/main.2565b949.chunk.js",
-    "main.js.map": "/asitsi.github.io/coronaApi/static/js/main.2565b949.chunk.js.map",
-    "runtime-main.js": "/asitsi.github.io/coronaApi/static/js/runtime-main.7c7868ec.js",
-    "runtime-main.js.map": "/asitsi.github.io/coronaApi/static/js/runtime-main.7c7868ec.js.map",
-    "static/css/2.61b4cb56.chunk.css": "/asitsi.github.io/coronaApi/static/css/2.61b4cb56.chunk.css",
-    "static/js/2.79238e03.chunk.js": "/asitsi.github.io/coronaApi/static/js/2.79238e03.chunk.js",
-    "static/js/2.79238e03.chunk.js.map": "/asitsi.github.io/coronaApi/static/js/2.79238e03.chunk.js.map",
-    "index.html": "/asitsi.github.io/coronaApi/index.html",
-    "static/css/2.61b4cb56.chunk.css.map": "/asitsi.github.io/coronaApi/static/css/2.61b4cb56.chunk.css.map",
-    "static/css/main.e30a8c55.chunk.css.map": "/asitsi.github.io/coronaApi/static/css/main.e30a8c55.chunk.css.map",
-    "static/js/2.79238e03.chunk.js.LICENSE.txt": "/asitsi.github.io/coronaApi/static/js/2.79238e03.chunk.js.LICENSE.txt"
+    "main.css": "/coronaApi/static/css/main.e30a8c55.chunk.css",
+    "main.js": "/coronaApi/static/js/main.2565b949.chunk.js",
+    "main.js.map": "/coronaApi/static/js/main.2565b949.chunk.js.map",
+    "runtime-main.js": "/coronaApi/static/js/runtime-main.792205de.js",
+    "runtime-main.js.map": "/coronaApi/static/js/runtime-main.792205de.js.map",
+    "static/css/2.61b4cb56.chunk.css": "/coronaApi/static/css/2.61b4cb56.chunk.css",
+    "static/js/2.79238e03.chunk.js": "/coronaApi/static/js/2.79238e03.chunk.js",
+    "static/js/2.79238e03.chunk.js.map": "/coronaApi/static/js/2.79238e03.chunk.js.map",
+    "index.html": "/coronaApi/index.html",
+    "static/css/2.61b4cb56.chunk.css.map": "/coronaApi/static/css/2.61b4cb56.chunk.css.map",
+    "static/css/main.e30a8c55.chunk.css.map": "/coronaApi/static/css/main.e30a8c55.chunk.css.map",
+    "static/js/2.79238e03.chunk.js.LICENSE.txt": "/coronaApi/static/js/2.79238e03.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.7c7868ec.js",
+    "static/js/runtime-main.792205de.js",
     "static/css/2.61b4cb56.chunk.css",
     "static/js/2.79238e03.chunk.js",
     "static/css/main.e30a8c55.chunk.css",
